@@ -23,4 +23,5 @@ gsettings range org.gnome.shell.extensions.dash-to-dock click-action
 - Resource: https://itsfoss.com/click-to-minimize-ubuntu/
 - Resource: https://askubuntu.com/questions/1026442/how-can-i-hover-over-icons-in-ubuntu-dock-to-see-all-windows-of-one-application
 
-
+## Download GitHub Desktop
+- Resource: https://github.com/shiftkey/desktop#debianubuntu-distributions
