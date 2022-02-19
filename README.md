@@ -25,3 +25,11 @@ gsettings range org.gnome.shell.extensions.dash-to-dock click-action
 
 ## Download GitHub Desktop
 - Resource: https://github.com/shiftkey/desktop#debianubuntu-distributions
+
+## Run C programs on terminal
+```bash
+- touch hello.c
+- nano hello.c
+- gcc hello.c -o hello.out
+- ./hello.out
+```
