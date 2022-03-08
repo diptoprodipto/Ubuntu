@@ -41,3 +41,5 @@ gsettings range org.gnome.shell.extensions.dash-to-dock click-action
 ```bash
 - fsck -f /dev/<your-drive>
 ```
+- Resource: https://askubuntu.com/questions/1351906/booting-problem-busybox-v1-30-1-initramfs
+- Resource: https://askubuntu.com/questions/953728/how-to-check-a-filesystem-in-ubuntu-16-04
