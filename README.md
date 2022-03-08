@@ -33,3 +33,11 @@ gsettings range org.gnome.shell.extensions.dash-to-dock click-action
 - gcc hello.c -o hello.out
 - ./hello.out
 ```
+
+## Booting problem: BusyBox v1.30.1 / initramfs
+- Check the file system and find the partition name in which Ubuntu is installed.
+- Run the following command on the BusyBox terminal.
+
+```bash
+- fsck -f /dev/<your-drive>
+```
