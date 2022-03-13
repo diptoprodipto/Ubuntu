@@ -1,6 +1,15 @@
 # Ubuntu
 > All about Ubuntu/Linux commands
 
+## 20 things to do after fresh installation
+- Resource: https://www.youtube.com/watch?v=GrI5c9PXS5k
+
+## Install Ubuntu Restricted Extras
+
+```bash
+- sudo apt install ubuntu-restricted-extras
+```
+
 ## Minimize on click
 ### Enable
 
