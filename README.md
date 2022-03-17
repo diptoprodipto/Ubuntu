@@ -52,3 +52,16 @@ gsettings range org.gnome.shell.extensions.dash-to-dock click-action
 ```
 - Resource: https://askubuntu.com/questions/1351906/booting-problem-busybox-v1-30-1-initramfs
 - Resource: https://askubuntu.com/questions/953728/how-to-check-a-filesystem-in-ubuntu-16-04
+
+## Customize dock panel using dconf-editor
+- Install dconf-editor by the following command:
+
+```bash
+sudo apt install dconf-editor
+```
+
+- For customizing the dock open dconf-editor and go to the following path:
+
+```bash
+org/gnome/shell/extensions/dash-to-dock/
+```
