@@ -65,3 +65,4 @@ sudo apt install dconf-editor
 ```bash
 org/gnome/shell/extensions/dash-to-dock/
 ```
+- Resource: https://www.youtube.com/watch?v=2bCHAOr0Hdg
