@@ -66,3 +66,10 @@ sudo apt install dconf-editor
 org/gnome/shell/extensions/dash-to-dock/
 ```
 - Resource: https://www.youtube.com/watch?v=2bCHAOr0Hdg
+
+## Adding permission to restricted folder
+
+```bash
+sudo chown -R $USER:$USER /opt/lampp
+```
+- Resource: https://askubuntu.com/questions/642744/read-write-permissions-in-opt-directory
