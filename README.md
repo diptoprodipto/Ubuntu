@@ -73,3 +73,10 @@ org/gnome/shell/extensions/dash-to-dock/
 sudo chown -R $USER:$USER /opt/lampp
 ```
 - Resource: https://askubuntu.com/questions/642744/read-write-permissions-in-opt-directory
+
+## Adding solid color wallpaper
+
+```bash
+- gsettings set org.gnome.desktop.background primary-color '#2c001e'
+```
+- Resource: https://connectwww.com/change-ubuntu-background-to-solid-colour-set-wallpaper-to-solid-color-in-ubuntu/62142/
