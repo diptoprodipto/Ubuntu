@@ -77,6 +77,7 @@ org/gnome/shell/extensions/dash-to-dock/
 ```bash
 sudo chmod -R 777 /opt/lampp/htdocs
 ```
+- Resource: https://www.computernetworkingnotes.com/linux-tutorials/xampp-htdocs-permission-issue-and-fix-in-ubuntu.html
 - Resource: https://askubuntu.com/questions/642744/read-write-permissions-in-opt-directory
 
 ## Adding solid color wallpaper
