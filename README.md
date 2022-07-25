@@ -7,7 +7,7 @@
 ## Install Ubuntu Restricted Extras
 
 ```bash
-- sudo apt install ubuntu-restricted-extras
+sudo apt install ubuntu-restricted-extras
 ```
 
 ## Minimize on click
@@ -35,6 +35,11 @@ gsettings range org.gnome.shell.extensions.dash-to-dock click-action
 ## Download GitHub Desktop
 - Resource: https://github.com/shiftkey/desktop#debianubuntu-distributions
 
+## Download GCC & C/C++ dependencies
+```bash
+sudo apt install build-essential
+```
+
 ## Run C programs on terminal
 ```bash
 - touch hello.c
@@ -48,7 +53,7 @@ gsettings range org.gnome.shell.extensions.dash-to-dock click-action
 - Run the following command on the BusyBox terminal.
 
 ```bash
-- fsck -f /dev/<your-drive>
+fsck -f /dev/<your-drive>
 ```
 - Resource: https://askubuntu.com/questions/1351906/booting-problem-busybox-v1-30-1-initramfs
 - Resource: https://askubuntu.com/questions/953728/how-to-check-a-filesystem-in-ubuntu-16-04
@@ -70,13 +75,13 @@ org/gnome/shell/extensions/dash-to-dock/
 ## Adding permission to restricted folder
 
 ```bash
-sudo chown -R $USER:$USER /opt/lampp
+sudo chmod -R 777 /opt/lampp/htdocs
 ```
 - Resource: https://askubuntu.com/questions/642744/read-write-permissions-in-opt-directory
 
 ## Adding solid color wallpaper
 
 ```bash
-- gsettings set org.gnome.desktop.background primary-color '#2c001e'
+gsettings set org.gnome.desktop.background primary-color '#2c001e'
 ```
 - Resource: https://connectwww.com/change-ubuntu-background-to-solid-colour-set-wallpaper-to-solid-color-in-ubuntu/62142/
