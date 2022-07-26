@@ -72,6 +72,13 @@ org/gnome/shell/extensions/dash-to-dock/
 ```
 - Resource: https://www.youtube.com/watch?v=2bCHAOr0Hdg
 
+## Adding Open as Administrator on right click
+
+```bash
+- sudo apt install nautilus-admin
+- nautilus -q
+```
+
 ## Adding permission to restricted folder
 
 ```bash
@@ -86,3 +93,9 @@ sudo chmod -R 777 /opt/lampp/htdocs
 gsettings set org.gnome.desktop.background primary-color '#2c001e'
 ```
 - Resource: https://connectwww.com/change-ubuntu-background-to-solid-colour-set-wallpaper-to-solid-color-in-ubuntu/62142/
+
+## Install failed to install packages/dependencies
+
+```bash
+sudo apt --fix-broken install
+```
