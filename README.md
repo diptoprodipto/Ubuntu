@@ -99,3 +99,12 @@ gsettings set org.gnome.desktop.background primary-color '#2c001e'
 ```bash
 sudo apt --fix-broken install
 ```
+
+## TLP Resources
+
+```bash
+systemctl status tlp.service
+systemctl enable --now tlp.service
+```
+- Resource: https://forum.manjaro.org/t/tlp-does-not-apply-settings-at-boot/25689
+- TLPUI: https://github.com/d4nj1/TLPUI
